@@ -13,7 +13,7 @@ class SecondCarousel extends Component {
   componentDidMount = async () => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=cd12fbd2&s=lord of the rings`
+        `http://www.omdbapi.com/?apikey=cd12fbd2&s=Dragon Ball`
       )
       if (response.ok) {
         const data = await response.json()

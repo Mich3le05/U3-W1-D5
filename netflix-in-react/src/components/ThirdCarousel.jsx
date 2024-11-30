@@ -13,7 +13,7 @@ class ThirdCarousel extends Component {
   componentDidMount = async () => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=cd12fbd2&s=Marvel`
+        `http://www.omdbapi.com/?apikey=cd12fbd2&s=Spider Man`
       )
       if (response.ok) {
         const data = await response.json()
